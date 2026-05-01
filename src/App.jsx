@@ -15,7 +15,7 @@ import Settings from './pages/Settings';
 export default function App() {
   return (
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Devnagri">
         {/* Animated background gradient */}
         <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
           <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full opacity-[0.07] blur-3xl animate-pulse-slow"
